@@ -4,8 +4,10 @@
 
 # Either of these will work
 
-alias 2021-taxes-calculator=py { pathToPythonFile }/main.py
+# Change to main2.py as needed
+
+alias 2021-taxes-calculator=py { pathToPythonFile }/main3.py
 
 function 2021-taxes-calculator() {
-    py { pathToPythonFile }/main.py
+    py { pathToPythonFile }/main3.py
 }
